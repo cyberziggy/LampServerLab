@@ -22,6 +22,7 @@ The project involves using open-source tools to build a web application. A web a
 
 <p align="center">
 Install Apache(Before installing apache ensure that the package is on the system and up to date.:
+ ![Screenshot from 2023-01-24 21-52-52](https://user-images.githubusercontent.com/122754610/214997029-c2b5277f-2fba-40e7-9e3c-e0abc860660a.png)
 
 
 <!--
