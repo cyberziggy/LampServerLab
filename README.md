@@ -86,6 +86,11 @@ STEP 1 Install Apache(Before installing apache ensure that the package is on the
    Inside the file type 
     
    ![cod](https://i.imgur.com/8qvZL98.png)
+   
+   <p align="center">
+   Open the internet browser and type the following address [server-ip-address]/info.php and the output should display the LAMP stack in the image below
+   
+   ![Lam](https://i.imgur.com/XVGMJbM.png)
     
     
     
