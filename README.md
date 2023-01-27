@@ -21,7 +21,7 @@ The project involves using open-source tools to build a web application. A web a
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Install Apache(Before installing apache ensure that the package is on the system and up to date.:
+STEP 1 Install Apache(Before installing apache ensure that the package is on the system and up to date.:
 
  ![lamp1](https://i.imgur.com/uzChvys.png)
 
@@ -45,6 +45,64 @@ Install Apache(Before installing apache ensure that the package is on the system
    
    <p align="center">
     Make sure the Apache profile allows trafficce on ports 80 and 443 running the command *sudo ufw app info "Apache Full"*
+    
+   ![a2](https://i.imgur.com/NKO94zn.png)
+    
+ Confirm that Apache is running by typing the IP address of the server in your adddress bar on the internet browser
+     
+   ![ip](https://i.imgur.com/CC4QRlz.png)
+   
+<p align="center">
+ STEP 2 Install MYSQL with this command "sudo apt install mysql-server -y" 
+ 
+ ![mysql](https://i.imgur.com/nMVq3nR.png)
+ 
+ <p align="center">
+  STEP 3 Install PHP with this command "sudo apt install php libapache2-mod-php php-mysql -y"
+  
+  ![php](https://i.imgur.com/2jssa9k.png)
+  
+  <p align="center">
+   Modify the way Apache serves files opening the "dir.conf" file in text editor with root privileges
+   "sudo nano /etc/apache2/mods-enabled/dir.conf" the configuration file should look like this... edit the file so that the "index.php" is the first option
+   
+   ![config](https://i.imgur.com/wFKf6Hz.png)
+   
+   <p align="center">
+   Install PHP Tidy "PHP Tidy is a built-in extension in PHP that allows developers to clean up and format their HTML, XHTML, and XML code. It can correct and reorder the HTML and XML tags, as well as adding missing tags and attributes."
+    
+   ![tid](https://i.imgur.com/yLlUxR9.png)
+    
+   <p align="center">
+   STEP 4 Restart apache with the command "sudo systemctl restart apache2"
+    
+   <p align="center">
+   STEP 5 TEST PHP processing on web server
+     
+   ![test](https://i.imgur.com/moSd0XQ.png)
+   <p align="center"> Create a file in the web root directory with the command above
+    
+   <p align="center">
+   Inside the file type 
+    
+   ![cod](https://i.imgur.com/8qvZL98.png)
+    
+    
+    
+    
+    
+    
+    
+   
+   
+   
+   
+  
+  
+ 
+ 
+    
+    
     
     
    
