@@ -23,7 +23,36 @@ The project involves using open-source tools to build a web application. A web a
 <p align="center">
 Install Apache(Before installing apache ensure that the package is on the system and up to date.:
 
-<img src="https://imgur.com/a/E8N07u6" alt="install">
+ ![lamp1](https://i.imgur.com/uzChvys.png)
+
+ <p align="center">
+  Install the Apache package by running the following command:
+  
+  ![apache](https://i.imgur.com/p5nGrLr.png)
+  
+  
+ <p align="center">
+  Check if Apache is installed correctly by checking the service status (Should say "Active *running")
+  
+  ![active](https://i.imgur.com/9ac7WCF.png)
+   
+  <p align="center"> "exit screen with Ctrl+C"
+  
+  <p align="center">
+   Next make sure the UFW firewall contains Apache profiles typing this command "sudo ufw list"
+   
+   ![ufw](https://i.imgur.com/dnifB19.png)
+   
+   <p align="center">
+    Make sure the Apache profile allows trafficce on ports 80 and 443 running the command *sudo ufw app info "Apache Full"*
+    
+    
+   
+   
+   
+   
+   
+  
 
 
 
